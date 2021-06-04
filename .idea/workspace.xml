@@ -11,138 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a753e4-bb14-4618-a9b1-6ebc5b222da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projetSymphonyBOSCH.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/dama_doctrine_test_bundle.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210409081031.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210409091338.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/css/bootstrap-4/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/css/bootstrap-4/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/css/bootstrap-4/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/css/bootstrap-4/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/css/bootstrap-4/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/css/bootstrap-4/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/js/bootstrap-4/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/js/bootstrap-4/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/js/bootstrap-4/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/js/bootstrap-4/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/js/jquery-3/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/023-Mct-recap-voy.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carottes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/en.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/epicerie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fruits.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/iut2_info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/junk_food.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/legumes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nutella.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/oreo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/peche.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pizza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/poires.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pommes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/romanesco.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tomates.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-4/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-4/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-4/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-4/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BoutiqueController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PanierController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UsagerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/FixtureEntity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Categorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Commande.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Produit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Usager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/UsagerType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategorieRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CommandeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ProduitRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UsagerRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BoutiqueService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/PanierService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Panier/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/boutique.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contact.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hello.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/navbar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/rayon.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/usager/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/usager/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/usager/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Fonctionnels/accesConnexionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Kernel/fixturesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Services/PanierServiceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/messages+intl-icu.en.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/messages+intl-icu.fr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/security.en.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/security.fr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/validators.en.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/validators.fr.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +187,7 @@
       <workItem from="1621422202410" duration="12115000" />
       <workItem from="1622459088076" duration="92000" />
       <workItem from="1622786787974" duration="2467000" />
-      <workItem from="1622789317397" duration="750000" />
+      <workItem from="1622789317397" duration="1092000" />
     </task>
     <servers />
   </component>
@@ -350,5 +219,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="595" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1621337699388" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622790308544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622790308544" />
   </component>
 </project>
