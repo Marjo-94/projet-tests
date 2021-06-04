@@ -6,6 +6,10 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class RoutesTest extends WebTestCase
 {
+
+    /**
+    * @dataProvider urlProvider
+     */
     public function testHomepageIsUp($url)
     {
         $client = static::createClient();
@@ -14,14 +18,12 @@ class RoutesTest extends WebTestCase
         $this->assertResponseIsSuccessful();
     }
 
-    public function testAllRoutes()
+    public function urlProvider()
     {
         yield['/'];
         yield['/fr/boutique'];
         yield['/fr/contact'];
-        yield['/fr/contact'];
         yield['/fr/rayon/1'];
-        yield['/fr/panier'];
         yield['/fr/panier'];
     }
 }
