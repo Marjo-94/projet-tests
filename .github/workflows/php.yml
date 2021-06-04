@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Validate composer.json and composer.lock
-      run: composer validate --strict
+   # - name: Validate composer.json and composer.lock
+   #   run: composer validate --strict
 
     - name: Cache Composer packages
       id: composer-cache
@@ -31,6 +31,14 @@ jobs:
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
+    - name: Create Database
+      run: php bin/console doctrine:database:create --env test
 
+    - name: Schema update
+      run: php bin/console doctrine:schema:update --force --env test
+
+    - name: Load Fixtures
+      run: php bin/console doctrine:fixtures:load --env test -n
+    
     - name: Run test suite
       run: php bin/phpunit tests
