@@ -1,23 +1,33 @@
 security:
-    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:
-        users_in_memory: { memory: null }
+        app_user_provider:
+            entity:
+                class: App\Entity\Usager
+                property: email
+        # used to reload user from session & other features (e.g. switch_user)
+        # used to reload user from session & other features (e.g. switch_user)
+    role_hierarchy:
+        ROLE_ADMIN: ROLE_CLIENT
+    encoders:
+        App\Entity\Usager:
+            algorithm: auto
+        App\Entity\User:
+            algorithm: auto
+
+
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
         main:
-            anonymous: lazy
-            provider: users_in_memory
-
-            # activate different ways to authenticate
-            # https://symfony.com/doc/current/security.html#firewalls-authentication
-
-            # https://symfony.com/doc/current/security/impersonating_user.html
-            # switch_user: true
-
-    # Easy way to control access for large sections of your site
-    # Note: Only the *first* access control that matches will be used
+            anonymous: true
+            logout:
+                path: app_logout
+                target: home
+            guard:
+                authenticators:
+                    - App\Security\LoginFormAuthenticator
     access_control:
-        # - { path: ^/admin, roles: ROLE_ADMIN }
-        # - { path: ^/profile, roles: ROLE_USER }
+        - { path: ^/(%app.supported_locales%)/admin, roles: ROLE_ADMIN }
+        - { path: ^/(%app.supported_locales%)/usager/accueil, roles: ROLE_CLIENT }
+        - { path: ^/(%app.supported_locales%)/usager/commandes, roles: ROLE_CLIENT }

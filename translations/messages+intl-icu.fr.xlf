@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="xiNyttb" resname="default.navbar.accueil">
+        <source>default.navbar.accueil</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="RBO4wFC" resname="default.navbar.boutique">
+        <source>default.navbar.boutique</source>
+        <target>Boutique</target>
+      </trans-unit>
+      <trans-unit id="Ox52Bgu" resname="default.navbar.panier">
+        <source>default.navbar.panier</source>
+        <target>Panier</target>
+      </trans-unit>
+      <trans-unit id="88T1kfJ" resname="default.navbar.contact">
+        <source>default.navbar.contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="WVqrpJR" resname="default.contact.contact">
+        <source>default.contact.contact</source>
+        <target>__default.contact.contact</target>
+      </trans-unit>
+      <trans-unit id="m.Z7Pr1" resname="default.contact.h1">
+        <source>default.contact.h1</source>
+        <target>Pour nous contacter :</target>
+      </trans-unit>
+      <trans-unit id="PM6uLch" resname="default.contact.tel">
+        <source>default.contact.tel</source>
+        <target>Téléphone : </target>
+      </trans-unit>
+      <trans-unit id="fsc8Z_q" resname="default.contact.mail">
+        <source>default.contact.mail</source>
+        <target>Adresse mail : </target>
+      </trans-unit>
+      <trans-unit id="RPUAmje" resname="default.contact.adresse">
+        <source>default.contact.adresse</source>
+        <target>Adresse postal : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
