@@ -41,4 +41,5 @@ jobs:
       run: php bin/console doctrine:fixtures:load --env test -n
     
     - name: Run test suite
+      SYMFONY_DEPRECATIONS_HELPER=disabled
       run: php bin/phpunit tests
