@@ -3,7 +3,6 @@
 namespace App\Tests;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
-use Symfony\Flex\Path;
 
 class RoutesTest extends WebTestCase
 {
@@ -35,12 +34,5 @@ class RoutesTest extends WebTestCase
         $this->client = self::createClient();
         $crawler = $this->client->request('GET', '/');
         $this->assertSame('Welcome !', $crawler->filter('h1'));
-    }
-
-    public function testContainsInscription() {
-        $this->client = self::createClient();
-        $crawler = $this->client->request('GET', '/');
-
-        $this->assertContains('fr/inscription',$crawler->filter('a')->extract('href'));
     }
 }
