@@ -41,6 +41,6 @@ class RoutesTest extends WebTestCase
         $this->client = self::createClient();
         $crawler = $this->client->request('GET', '/');
 
-        $this->assertContains('usager_new',$crawler->filter('a')->extract('href'));
+        $this->assertContains('fr/inscription',$crawler->filter('a')->extract('href'));
     }
 }
