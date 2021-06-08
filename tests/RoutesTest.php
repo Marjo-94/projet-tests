@@ -37,28 +37,10 @@ class RoutesTest extends WebTestCase
         $this->assertSame('Welcome !', $crawler->filter('h1'));
     }
 
-    public function testContainsRegister() {
+    public function testContainsInscription() {
         $this->client = self::createClient();
         $crawler = $this->client->request('GET', '/');
 
         $this->assertContains('usager_new',$crawler->filter('a')->extract('href'));
-    }
-
-    public function testLoginTrue()
-    {
-        $credential = [
-            'email' => 'user@gmail.com',
-            'password' => 'user'
-        ];
-        $this->post('login',$credential)->assertRedirect('/');
-    }
-
-    public function testLoginFalse()
-    {
-        $credential = [
-            'email' => 'usera@gmil.com',
-            'password' => 'usera'
-        ];
-        $this->post('login',$credential)->assertRedirect('/login');
     }
 }
