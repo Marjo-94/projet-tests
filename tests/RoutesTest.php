@@ -34,35 +34,14 @@ class RoutesTest extends WebTestCase
     public function testCorrectHome() {
         $this->client = self::createClient();
         $crawler = $this->client->request('GET', '/');
-        $this->assertSame('Bienvenue sur boublaCar', $crawler->filter('h1'));
-    }
-    //test homepage contient 10 li
-    public function testHomeContainsLi() {
-
-        $this->client = self::createClient();
-        $crawler = $this->client->request('GET', '/');
-        $this->assertCount(10, $crawler->filter('li'));
-    }
-
-    // test li contains Paths
-    public function testHomeContainsPaths() {
-        $this->client = self::createClient();
-        $crawler = $this->client->request('GET', '/');
-        $this->assertContainsOnlyInstancesOf(Path::class,$crawler->filter('li'));
+        $this->assertSame('Welcome !', $crawler->filter('h1'));
     }
 
     public function testContainsRegister() {
         $this->client = self::createClient();
         $crawler = $this->client->request('GET', '/');
 
-        $this->assertContains('/register',$crawler->filter('a')->extract('href'));
-    }
-
-    public function testContainsLogIn() {
-        $this->client = self::createClient();
-        $crawler = $this->client->request('GET', '/');
-
-        $this->assertContains('/login',$crawler->filter('a')->extract('href'));
+        $this->assertContains('usager_new',$crawler->filter('a')->extract('href'));
     }
 
     public function testLoginTrue()
