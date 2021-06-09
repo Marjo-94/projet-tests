@@ -31,14 +31,14 @@ final class PanierServiceTest extends TestCase
     public function testGetContenu(){
 
         $session = $this->createMock(SessionInterface::class);
+        $session->method('get')->willReturn([2 => 2, 1 => 12]);
+        $session->expects($this->exactly(1))->method('get')->with('panier', [2 => 1, 1 => 12]);
 
         $entityManager = $this->createMock(EntityManagerInterface::class);
         $produitRepository = $this->createMock(ProduitRepository::class);
 
         $panier = new PanierService($session, $produitRepository, $entityManager);
-        $panier->ajouterProduit(1,12);
-
-        $this->assertSame($panier->getContenu(), [1 => 12]);
+        $panier->getContenu();
 
     }
 
