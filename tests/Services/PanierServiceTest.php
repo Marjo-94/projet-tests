@@ -36,9 +36,9 @@ final class PanierServiceTest extends TestCase
         $produitRepository = $this->createMock(ProduitRepository::class);
 
         $panier = new PanierService($session, $produitRepository, $entityManager);
-        $panier->ajouterProduit(2,12);
+        $panier->ajouterProduit(1,12);
 
-        $this->assertSame($panier->getContenu(), [2 => 12]);
+        $this->assertSame($panier->getContenu(), [1 => 12]);
 
     }
 
