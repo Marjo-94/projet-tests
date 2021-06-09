@@ -27,6 +27,21 @@ final class PanierServiceTest extends TestCase
         );
     }
 
+    // Test de la fontion getContenu
+    public function testGetContenu(){
+
+        $session = $this->createMock(SessionInterface::class);
+        $session->method('get')->willReturn([2 => 12, 1 => 15]);
+        $session->expects($this->exactly(1))->method('set')->with('panier', [2 => 12, 1 => 15]);
+
+        $entityManager = $this->createMock(EntityManagerInterface::class);
+        $produitRepository = $this->createMock(ProduitRepository::class);
+
+        $panier = new PanierService($session, $produitRepository, $entityManager);
+        $panier->getContenu();
+
+    }
+
     // Test de la fonction EnleverProduit
     public function testPanierEnleverProduit(){
 

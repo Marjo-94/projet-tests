@@ -26,6 +26,7 @@ class RoutesTest extends WebTestCase
         yield['/fr/panier'];
         yield['/fr/connexion'];
         yield['/fr/accueil'];
+        yield['/fr/inscription'];
     }
 
     //test '/' redirects to Home
